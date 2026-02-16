@@ -44,7 +44,7 @@ For reference, each vision token occupies around 20 MB of RAM — a detail wor
 
 ## Model performance benchmark (FPS)
 
-All models below can handle multiple frames. Best performing is Qwen3, as the 'parent' of InternVL3.5 and SmolVLM2.<br><br>
+All models below can handle multiple frames. Best performing is **Qwen3**, as the 'parent' of InternVL3.5 and SmolVLM2.<br><br>
 All LLM models are quantized to **w8a8**, while the VLM vision encoders use **fp16**.<br>
 
 | model         | RAM (GB)<sup>1</sup> | llm cold sec<sup>2</sup> | llm warm sec<sup>3</sup> | vlm cold sec<sup>2</sup> | vlm warm sec<sup>3</sup> | Resolution | Tokens/s |
