@@ -3,13 +3,6 @@
 #include <vector>
 #include <algorithm> // for std::transform
 #include "RK35llm.h"
-
-//----------------------------------------------------------------------------------------
-
-// ~/VLMmodels/qwen3-vl-2b-vision_rk3588.rknn ~/VLMmodels/qwen3-vl-2b-instruct_w8a8_rk3588.rkllm ./frame1.jpg ./frame2.jpg ./frame3.jpg ./frame4.jpg
-// ~/VLMmodels/smolvlm2_500M_vision_rk3588.rknn ~/VLMmodels/smolvlm2_500m_llm_w8a8_rk3588.rkllm ./frame1.jpg ./frame2.jpg ./frame3.jpg ./frame4.jpg
-// ~/VLMmodels/internvl3-1b_vision_fp16_rk3588.rknn ~/VLMmodels/internvl3-1b_w8a8_rk3588.rkllm ./frame1.jpg ./frame2.jpg ./frame3.jpg ./frame4.jpg
-
 //----------------------------------------------------------------------------------------
 // Define a simple progress printer
 void my_progress(int current, int total) {
